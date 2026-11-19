@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>젤리 블록 데이터 삭제 요청</title>
+<style>
+:root { --bg: #fff6f1; --ink: #5a2f22; --ink2: #8a6355; --line: #f3d6c9; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.7 system-ui, -apple-system, "Noto Sans KR", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px max(18px, env(safe-area-inset-left, 0px)) 64px; }
+h1 { font-size: 26px; line-height: 1.3; margin: 0 0 4px; }
+h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+p, li { color: var(--ink2); }
+strong { color: var(--ink); }
+a { color: #c2513a; }
+.meta { font-size: 13px; color: var(--ink2); }
+.lang { display: flex; gap: 8px; margin: 16px 0 0; flex-wrap: wrap; }
+.lang a { font-size: 13px; padding: 4px 12px; border-radius: 999px; background: var(--line); color: var(--ink); text-decoration: none; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink); }
+.wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+<h1>젤리 블록 데이터 삭제 요청</h1>
+<p class="meta">앱: 젤리 블록 (Jelly Blocks) · 개발자: kchaebolheavyind · 시행일: 2026년 11월 19일</p>
+<div class="lang"><a href="#ko">한국어</a><a href="#en">English</a><a href="./">개인정보처리방침</a><a href="terms.html">서비스 약관</a></div>
+
+<section id="ko">
+<p>젤리 블록은 회원가입이 없고 이름·이메일 같은 개인정보를 운영자 서버에 저장하지 않습니다. 아래 방법으로 데이터를 지울 수 있습니다.</p>
+
+<h2>1. 기기에 저장된 게임 진행 정보</h2>
+<ol>
+<li>젤리 블록 홈 화면에서 <strong>설정</strong>을 누릅니다.</li>
+<li><strong>진행 초기화</strong>를 두 번 눌러 확인합니다.</li>
+</ol>
+<p>또는 앱을 삭제하면 기기에 저장된 진행 정보(점수, 모험 레벨과 별, 별사탕, 꾸미기, 설정)가 모두 즉시 지워집니다. 유료로 산 상품은 Google Play 구매 내역으로 언제든 되살릴 수 있습니다.</p>
+
+<h2>2. Google Play 게임즈 기록 (랭킹·업적·클라우드 저장)</h2>
+<p>Play 게임즈에 로그인한 경우에만 해당합니다.</p>
+<ol>
+<li>Google Play 게임즈 앱(또는 Play 스토어 → 프로필 → Play 게임즈 설정)을 엽니다.</li>
+<li><strong>설정 → 계정 및 개인 정보 보호 → Play 게임즈 계정 및 데이터 삭제</strong>로 들어갑니다.</li>
+<li><strong>개별 게임 데이터 삭제</strong>에서 <strong>젤리 블록</strong>을 골라 삭제합니다.</li>
+</ol>
+
+<h2>3. 이메일로 요청하기</h2>
+<p><a href="mailto:elkardian2@gmail.com?subject=%EC%A0%A4%EB%A6%AC%20%EB%B8%94%EB%A1%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">elkardian2@gmail.com</a>으로 제목 "젤리 블록 데이터 삭제 요청"을 보내 주시면 30일 안에 처리하고 결과를 알려 드립니다.</p>
+
+<h2>4. 삭제되는 데이터와 보관 기간</h2>
+<div class="wrap"><table>
+<tr><th>데이터</th><th>삭제</th><th>보관 기간</th></tr>
+<tr><td>게임 진행 정보(기기)</td><td>진행 초기화 또는 앱 삭제 시 즉시</td><td>보관하지 않음</td></tr>
+<tr><td>Play 게임즈 랭킹·업적·클라우드 저장</td><td>위 2번 방법으로 삭제</td><td>삭제 전까지 이용자의 Google 계정에 보관</td></tr>
+<tr><td>앱 사용 분석(Firebase 애널리틱스)</td><td>개인을 알아볼 수 없는 형태로 처리되며 자동 삭제</td><td>최대 14개월</td></tr>
+<tr><td>오류 기록(Firebase Crashlytics)</td><td>자동 삭제</td><td>90일</td></tr>
+<tr><td>구매 내역(Google Play)</td><td>Google Play 결제 정책에 따름</td><td>Google 정책에 따름</td></tr>
+<tr><td>광고 관련 정보(Google AdMob)</td><td>기기 설정 → Google → 광고에서 광고 ID 삭제·재설정</td><td>Google 정책에 따름</td></tr>
+</table></div>
+<p>운영자는 법령이 정한 경우를 빼고 위 데이터를 따로 보관하지 않습니다.</p>
+</section>
+
+<section id="en">
+<h2 style="border-top-width:3px">Jelly Blocks data deletion (English)</h2>
+<p class="meta">App: Jelly Blocks · Developer: kchaebolheavyind · Effective: November 19, 2026</p>
+<p>Jelly Blocks has no accounts and stores no personal information such as names or emails on the developer's servers. You can delete your data as follows.</p>
+<p><strong>1. Game progress on your device.</strong> On the home screen tap <strong>Settings</strong>, then tap <strong>Reset progress</strong> twice to confirm. Uninstalling the app also deletes all progress stored on the device (scores, adventure levels and stars, candy, cosmetics, settings) immediately. Paid products can always be restored from your Google Play purchase history.</p>
+<p><strong>2. Google Play Games records (rankings, achievements, cloud save).</strong> Only if you signed in to Play Games. Open Google Play Games (or Play Store → profile → Play Games settings), go to <strong>Settings → Account &amp; privacy → Delete Play Games account &amp; data</strong>, and under <strong>Delete individual game data</strong> choose <strong>Jelly Blocks</strong>.</p>
+<p><strong>3. Request by email.</strong> Send "Jelly Blocks data deletion request" to <a href="mailto:elkardian2@gmail.com?subject=Jelly%20Blocks%20data%20deletion%20request">elkardian2@gmail.com</a>. We will handle it within 30 days and reply.</p>
+<p><strong>4. What is deleted and how long it is kept.</strong> Device progress: deleted immediately on reset or uninstall, not retained. Play Games rankings, achievements and cloud save: kept in your Google account until you delete them as above. App analytics (Firebase Analytics): deleted automatically after at most 14 months. Crash reports (Firebase Crashlytics): deleted after 90 days. Purchase records and ad data: retained by Google under its own policies. The developer keeps no other copies except where required by law.</p>
+</section>
+</main>
+</body>
+</html>
