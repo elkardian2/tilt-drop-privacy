@@ -9,3 +9,9 @@ https://elkardian2.github.io/tilt-drop-privacy/
 https://elkardian2.github.io/tilt-drop-privacy/jelly-blocks/ (데이터 삭제: jelly-blocks/delete.html, 약관: jelly-blocks/terms.html)
 
 원본은 jelly-blocks 저장소의 docs/privacy/ 에서 관리합니다.
+
+# 냥이 하숙집 (Meow Lodge) 개인정보처리방침
+
+https://elkardian2.github.io/tilt-drop-privacy/nyang-house/ (데이터 삭제: nyang-house/delete.html, 약관: nyang-house/terms.html)
+
+원본은 nyang-house 저장소의 store/privacy-site/nyang-house/ 에서 관리합니다.
